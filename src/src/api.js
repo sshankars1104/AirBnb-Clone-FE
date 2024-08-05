@@ -1,7 +1,7 @@
 // src/api.js
 import axios from 'axios';
 
-const API_URL = 'https://airbnb-clone-be-l1y1.onrender.com/properties'; // Update this URL to your backend
+const API_URL = 'https://airbnb-clone-be-l1y1.onrender.com'; // Update this URL to your backend
 
 export const fetchProperties = async () => {
   try {

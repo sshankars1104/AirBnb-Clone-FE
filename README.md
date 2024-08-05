@@ -74,17 +74,17 @@ The application will be available at http://localhost:5173.
 ## Back End Links
 
 <br><br>
-[GitHub](https://github.com/sshankars1104/AirBnb-Clone-BE.git)
+[GitHub Link](https://github.com/sshankars1104/AirBnb-Clone-BE.git)
 <br><br>
-[Render.com](https://airbnb-clone-be-xqje.onrender.com)
+[Render.com Link](https://airbnb-clone-be-l1y1.onrender.com)
 <br><br>
 
 ## Front End Links
 
 <br><br>
-[GitHub](https://github.com/sshankars1104/AirBnb-Clone-FE.git)
+[GitHub Link](https://github.com/sshankars1104/AirBnb-Clone-FE.git)
 <br><br>
-[Netlify.com](https://airbnb-clone-fe.netlify.app)
+[Netlify.com Link](https://airbnb-clone-fe.netlify.app/)
 
 ### ** License **
 
