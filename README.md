@@ -44,7 +44,7 @@ This project is an Airbnb clone built to practice and demonstrate frontend devel
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/airbnb-clone.git
+   git clone https://github.com/sshankars1104/AirBnb-Clone-BE.git
 
    ```
 
