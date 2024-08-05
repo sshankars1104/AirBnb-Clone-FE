@@ -1,0 +1,272 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: rgb(250, 246, 246);
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1007;
+}
+
+.header__left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__logo {
+  font-size: 30px;
+  color: #ff385c;
+}
+
+.header__left h1 {
+  font-size: 25px;
+  color: #e73152;
+}
+
+.header__middle {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header__search span {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.header__search span:hover {
+  background-color: #f1f1f1;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header__searchIcon {
+  color: #ff385c;
+  padding-left: 10px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.header__right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  position: relative;
+}
+
+.header__button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ff385c;
+  color: white;
+  cursor: pointer;
+}
+
+.header__button:hover {
+  background-color: #e73152;
+}
+
+.header__icon {
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.account {
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  padding: 15px;
+}
+
+.account:hover {
+  background-color: #f1f1f1;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.language {
+  position: relative;
+}
+
+.languageDropdown {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.languageDropdown__item {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.languageDropdown__item:hover {
+  background-color: #f1f1f1;
+}
+.dropdown {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.dropdown__item {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dropdown__item:hover {
+  background-color: #f1f1f1;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .account__main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 1024px) {
+  .header__left h1 {
+    display: none;
+  }
+  .header__left {
+    flex: 0;
+  }
+  .account__main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__left,
+  .header__right {
+    display: none;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  .header__middle {
+    flex: 1;
+    justify-content: center;
+  }
+  .account__main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.regionDropdown {
+  position: absolute;
+  top: 85%;
+  left: 50;
+  width: 200px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.regionDropdown__header {
+  padding: 8px 32px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.regionDropdown__item {
+  padding: 8px 52px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.regionDropdown__item:hover {
+  background-color: #f0f0f0;
+  border-radius: 14px;
+}
+
+.datePickerDropdown {
+  position: absolute;
+  top: 60px;
+  left: 200px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.datePickerDropdown:hover {
+  background-color: blue;
+  border-radius: 14px;
+}
+@media (max-width: 320px) {
+  .header__middle {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header__search {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header__search span {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .header__searchIcon {
+    font-size: 24px;
+  }
+
+  .header__button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}

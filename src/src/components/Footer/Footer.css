@@ -1,0 +1,81 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    flex-wrap: wrap;
+    /* Allows wrapping on smaller screens */
+}
+.footer__section {
+    flex: 1;
+    min-width: 200px;
+    /* Ensures sections don’t get too narrow */
+}
+
+.footer__section h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    /* Slightly larger font for section headers */
+}
+
+.footer__section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__section li {
+    margin: 5px 0;
+}
+
+.footer__section a {
+    color: #333;
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.footer__section a:hover {
+    text-decoration: underline;
+    /* Add underline on hover */
+}
+
+.footer__social {
+    flex: 1;
+    min-width: 200px;
+text-align: center;
+}
+
+.footer__social h3 {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.footer__social-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer__social-links a {
+    color: gray;
+    font-size: 1.8rem;
+    /* Adjust icon size as needed */
+    text-decoration: none;
+    
+}
+
+.footer__social-links a:hover {
+    color: #007bff;
+    /* Change color on hover */
+}
+
+.footer__copyright {
+    flex: 1;
+    min-width: 200px;
+    /* text-align: center; */
+    margin-top: 16px;
+    font-size: 0.9rem;
+}

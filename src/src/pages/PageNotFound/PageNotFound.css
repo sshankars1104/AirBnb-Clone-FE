@@ -1,0 +1,54 @@
+/* Centering the container both horizontally and vertically */
+.PageNotFound-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Full viewport height */
+    background-color: #f0f0f0;
+    /* Light gray background */
+}
+
+.PageNotFound-content {
+    text-align: center;
+}
+
+.PageNotFound-content h1 {
+    font-size: 6rem;
+    /* Large font size for the PageNotFound number */
+    margin: 0;
+    color: #333;
+    /* Dark gray color for the text */
+}
+
+.PageNotFound-content p {
+    font-size: 1.5rem;
+    /* Medium font size for the message */
+    color: #666;
+    /* Lighter gray color for the text */
+    margin: 10px ;
+}
+
+.home-link {
+    font-size: 1rem;
+    margin: 20px;
+    color: #007bff;
+    /* Bootstrap primary color */
+    text-decoration: none;
+    /* Remove underline */
+    border: 1px solid #007bff;
+    /* Add border to match link color */
+    padding: 10px 20px;
+    /* Add some padding around the link */
+    border-radius: 5px;
+    /* Rounded corners for the button */
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition */
+}
+
+.home-link:hover {
+    background-color: #007bff;
+    /* Change background color on hover */
+    color: #fff;
+    /* Change text color on hover */
+}
