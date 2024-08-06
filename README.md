@@ -84,7 +84,9 @@ The application will be available at http://localhost:5173.
 <br><br>
 [GitHub Link](https://github.com/sshankars1104/AirBnb-Clone-FE.git)
 <br><br>
-[Netlify.com Link](https://airbnb-clone-fe.netlify.app/)
+[Netlify.com Link --- Suspended By Netlify](https://airbnb-clone-fe.netlify.app/)
+<br><br>
+[Netlify.com Link --- Use New Link](https://airbnb-clone-fe.netlify.app/)
 
 ### ** License **
 
